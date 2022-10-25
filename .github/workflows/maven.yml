@@ -28,4 +28,4 @@ jobs:
       run: mvn install
 
     - name: Run leapYearTests
-      run: LeapYearTests.java
+      run: mvn test
