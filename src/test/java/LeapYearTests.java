@@ -27,7 +27,7 @@ public class LeapYearTests{
 
     // NOT - When it is divisible by 100, but NOT 400
     @ParameterizedTest
-    @ValueSource(ints ={1500, 1900})
+    @ValueSource(ints ={948, 1900})
     void is_divisible_by_100_but_not_400_is_not_a_leap_year(int year){
         assertFalse(LeapYear.isLeapYear(year));
     }
